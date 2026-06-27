@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://la-casita-del-nino-feliz-2.vercel.app/sitemap.xml

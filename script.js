@@ -684,3 +684,38 @@ renderCategories();
 renderModels(state.selected);
 renderCart();
 renderLocalPhoto();
+initMapEmbed();
+
+function initMapEmbed() {
+  const iframe = document.querySelector(".map-wrap iframe[data-map-src]");
+  if (!iframe) return;
+
+  const isSearchCrawler = /Googlebot|Google-InspectionTool|GoogleOther|Storebot-Google|bingbot|Slurp|DuckDuckBot/i.test(
+    navigator.userAgent
+  );
+  if (isSearchCrawler) return;
+
+  const mapSrc = iframe.getAttribute("data-map-src");
+  if (!mapSrc) return;
+
+  const loadMap = () => {
+    if (iframe.getAttribute("src")) return;
+    iframe.setAttribute("src", mapSrc);
+  };
+
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          loadMap();
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "240px" }
+    );
+    observer.observe(iframe);
+    return;
+  }
+
+  loadMap();
+}

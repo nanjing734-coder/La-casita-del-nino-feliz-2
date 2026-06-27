@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 760" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">La Casita del Niño Feliz 2</title>
+  <desc id="logoDesc">Logo colorido con texto La Casita del Niño Feliz 2 y una casita roja.</desc>
+  <defs>
+    <filter id="logoShadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#8d2741" flood-opacity=".16"/>
+    </filter>
+    <linearGradient id="twoPaint" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e94122"/>
+      <stop offset=".3" stop-color="#f7b733"/>
+      <stop offset=".62" stop-color="#22b8cf"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1180" height="760" fill="#fff"/>
+  <g filter="url(#logoShadow)" font-family="'Trebuchet MS', 'Arial Rounded MT Bold', Arial, sans-serif" font-weight="900" letter-spacing="0">
+    <path d="M450 208 592 88c23-20 56-20 79 0l170 143" fill="none" stroke="#e10f4f" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M818 112v248" fill="none" stroke="#e10f4f" stroke-width="34" stroke-linecap="round"/>
+    <text x="254" y="195" font-size="142" fill="#23b7c9">L</text>
+    <text x="344" y="195" font-size="142" fill="#e80f52">a</text>
+    <text x="154" y="362" font-size="154" fill="#f7b733">C</text>
+    <text x="277" y="362" font-size="154" fill="#e81e35">a</text>
+    <text x="392" y="362" font-size="154" fill="#f25f6d">s</text>
+    <text x="493" y="362" font-size="154" fill="#22b8cf">i</text>
+    <text x="555" y="362" font-size="154" fill="#8b5cf6">t</text>
+    <text x="638" y="362" font-size="154" fill="#b10f4d">a</text>
+    <text x="454" y="485" font-size="96" fill="#f25f6d">d</text>
+    <text x="535" y="485" font-size="96" fill="#f7b733">e</text>
+    <text x="604" y="485" font-size="96" fill="#22b8cf">l</text>
+    <text x="74" y="634" font-size="156" fill="#22b8cf">N</text>
+    <text x="200" y="634" font-size="156" fill="#f25f6d">i</text>
+    <text x="247" y="634" font-size="156" fill="#f7b733">ñ</text>
+    <text x="374" y="634" font-size="156" fill="#e81e35">o</text>
+    <text x="502" y="634" font-size="156" fill="#f25f6d">F</text>
+    <text x="612" y="634" font-size="156" fill="#22b8cf">e</text>
+    <text x="724" y="634" font-size="156" fill="#8b5cf6">l</text>
+    <text x="775" y="634" font-size="156" fill="#f7b733">i</text>
+    <text x="820" y="634" font-size="156" fill="#f25f6d">z</text>
+    <text x="956" y="634" font-size="184" fill="url(#twoPaint)">2</text>
+  </g>
+  <g fill="none" stroke="#7b4b3a" stroke-width="5" stroke-linecap="round">
+    <path d="M365 162c8 14 23 14 31 0"/>
+    <path d="M592 332c9 15 25 15 34 0"/>
+    <path d="M405 505c9 16 26 16 35 0"/>
+    <path d="M350 145v10M395 145v10M578 315v10M630 315v10M391 488v10M443 488v10"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "name": "La Casita del Niño Feliz 2",
+  "short_name": "Casita Feliz 2",
+  "description": "Tienda de productos para niños en Huacho.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "assets/logo-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
